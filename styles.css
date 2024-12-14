@@ -30,6 +30,7 @@
   padding-top: 15px;
   width: 600px;
   height: 600px;
+  object-fit: cover;
 }
 #maintext{
   font-family: Georgia, 'Times New Roman', Times, serif;
