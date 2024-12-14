@@ -1,0 +1,14 @@
+.headbutt{
+  background: linear-gradient(60deg,lightblue,rgb(86, 201, 201));
+}
+.mainbutt{
+  padding: 20px;
+  border-color: rgb(91, 57, 123);
+  background: linear-gradient(60deg,lightblue,lightpink);
+}
+button{
+  border-radius: 40px;
+}
+#mainhead{
+  width:50%;
+}
