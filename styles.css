@@ -6,7 +6,7 @@
   border-color: rgb(91, 57, 123);
   background: linear-gradient(60deg,lightblue,lightpink);
 }
-button{
+.btn{
   border-radius: 40px;
 }
 .container{
