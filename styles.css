@@ -30,4 +30,6 @@ button{
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 98%;
 }
-
+.textdiv{
+  vertical-align: middle;
+}
