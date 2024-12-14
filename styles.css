@@ -1,5 +1,7 @@
 #Start{
     padding: 20px;
+    width:30%;
+    border-color: rgb(91, 57, 123);
     background: linear-gradient(60deg,lightblue,lightpink);
 }
 
@@ -15,24 +17,23 @@
 }
 
 .container{
-  padding: 20px;
+    padding: 20px;
 }
 #mainhead{
-  width:50%;
+    width:50%;
 }
 #logo{
-  border-radius: 90px;
-  width: 60px;
-  height: 60px;
-  margin: 2px;
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
 }
 #mainpic{
-  padding-top: 15px;
-  width: 600px;
-  height: 600px;
-  object-fit: cover;
+    padding-top: 15px;
+    width: 500px;
+    height: 500px;
 }
 #maintext{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 98%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 98%;
 }
