@@ -1,16 +1,6 @@
 #Start{
     padding: 20px;
-    width:30%;
-    border-color: rgb(91, 57, 123);
     background: linear-gradient(60deg,lightblue,lightpink);
-    box-shadow:0 3px #414141;
-
-}
-#Start:hover {background: linear-gradient(60deg,rgb(111, 192, 219),rgb(238, 123, 140))}
-
-#Start:active{
-    box-shadow: 0 1px #313030;
-    transform: translateY(4px);
 }
 
 #b1{
