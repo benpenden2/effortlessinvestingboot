@@ -54,3 +54,8 @@ box-shadow:0 2px #414141;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 98%;
 }
+#quote{
+    border-left-width: 3px;
+    border-left-color: #2e2c2c;
+}
+    
