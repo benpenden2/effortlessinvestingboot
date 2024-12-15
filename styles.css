@@ -46,6 +46,8 @@ box-shadow:0 2px #414141;
 }
 #mainpic{
     padding-top: 15px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
 #maintext{
