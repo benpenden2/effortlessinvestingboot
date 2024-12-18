@@ -40,9 +40,10 @@ button{
     justify-content: center;
 }
 #mainpic2{
+    margin-left: 20px;
     padding: 50px;
     width:600px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 #maintext{
     font-family: Georgia, 'Times New Roman', Times, serif;
