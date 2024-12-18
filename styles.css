@@ -35,7 +35,8 @@ button{
     object-fit: cover;
 }
 #mainpic2{
-    border-radius: 20px;
+    border-radius: 30px;
+    width:500px;
 }
 #maintext{
     font-family: Georgia, 'Times New Roman', Times, serif;
