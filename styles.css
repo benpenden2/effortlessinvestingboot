@@ -41,8 +41,8 @@ button{
 }
 #mainpic2{
     padding: 30px;
+    width:600px;
     border-radius: 30px;
-    width:500px;
 }
 #maintext{
     font-family: Georgia, 'Times New Roman', Times, serif;
