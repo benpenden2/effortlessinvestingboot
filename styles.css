@@ -34,6 +34,9 @@ button{
     height: 500px;
     object-fit: cover;
 }
+#mainpic2{
+    border-radius: 20px;
+}
 #maintext{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 98%;
