@@ -1,92 +1,110 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="stylesteam.css" rel="stylesheet">
+    <link href="stylescontact.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Bootstrap demo</title>
-  </head>
+</head>
 
-
-<nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><img id="logo" src="catlogo.png" alt="catlogo"></a>
-        </div>
-        <ul class="nav navbar-nav navbar-left">
-          <li><a id="logotext" href="index.html">EffortlessInvesting</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li class="active" ><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</nav> 
-<br>
-<!-- action="/action_page.php" -->
-<form class="form-horizontal">
-    <div class="form-group">
-        <label class="control-label col-sm-4" for="name">Name:</label>
-        <div class="col-sm-4">
-            <input required type="text" class="form-control" placeholder="Enter your Name" id="name">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-sm-4" for="email">Email:</label>
-        <div class="col-sm-4">
-            <input  required type="email" class="form-control" placeholder="Enter your Email" id="email">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-sm-4" for="sub">Subject:</label>
-        <div class="col-sm-4">
-            <input required type="text" class="form-control" placeholder="Main Issue" id="sub">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="comment" class="control-label col-sm-4">More details:</label>
-        <div class="col-sm-4">
-        <textarea class="form-control" rows="5" id="comment"></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-offset-4 col-sm-4">
-            <button type="submit" class=" btn btn-default btn-block" onclick="myFunction()">Submit</button>
-            <!-- class="btn btn-default btn-block" onclick="myFunction()" -->
-            <div class="alert alert-info alert-dismissible fade in" style="display:none;margin: 20px 0 0 0;" id="succ">
-                <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Info!</strong> The form has been submitted successfully!
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="catlogo.png" alt="catlogo"></a>
             </div>
-            <div class="alert alert-warning alert-dismissible fade in" style="display:none;margin: 20px 0 0 0;" id="danger">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Warning!</strong> Please fill out the required details!
+            <ul class="nav navbar-nav navbar-left">
+            <li><a id="logotext" href="index.html">EffortlessInvesting</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li class="active" ><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <br>
+    <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-4" for="name">Name:</label>
+                <div class="col-sm-4">
+                    <input required type="text" class="form-control" placeholder="Enter your Name" id="name">
+                </div>
             </div>
+            <div class="form-group">
+                <label class="control-label col-sm-4" for="email">Email:</label>
+                <div class="col-sm-4">
+                    <input  required type="email" class="form-control" placeholder="Enter your Email" id="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-4" for="sub">Subject:</label>
+                <div class="col-sm-4">
+                    <input required type="text" class="form-control" placeholder="Main Issue" id="sub">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comment" class="control-label col-sm-4">More details:</label>
+                <div class="col-sm-4">
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <button type="submit" class=" btn btn-default btn-block" onclick="myFunction()">Submit</button>
+                    <div class="alert alert-info alert-dismissible fade in" style="display:none;margin: 20px 0 0 0;" id="succ">
+                        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Info!</strong> The form has been submitted successfully!
+                    </div>
+                    <div class="alert alert-warning alert-dismissible fade in" style="display:none;margin: 20px 0 0 0;" id="danger">
+                        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Warning!</strong> Please fill out the required details!
+                    </div>
+                </div>
+            </div>
+
+    </form>
+
+    <div class="divider"></div>
+
+    <div class="footer">
+        <br>
+        <div id="links">
+            <p>
+            <a><i class="fa fa-instagram"></i></a>
+            <a><i class="fa fa-facebook"></i></a>
+            <a><i class="fa fa-linkedin"></i></a>
+            <a><i class="fa fa-github"></i></a>
+            <a><i class="fa fa-twitter"></i></a>
+            <a><i class="fa fa-youtube"></i></a>
+            </p>
         </div>
     </div>
 
-</form>
+    <script>
+    function myFunction() {
+        var name = document.getElementById('name');
+        var email = document.getElementById('email');
+        var sub = document.getElementById('sub');
+        const succ = document.getElementById("succ");
+        const danger = document.getElementById('danger');
 
+        if(name.value === '' || email.value === '' || sub.value === ''){
+            danger.style.display = 'block';
+        }
+        else{
+            danger.style.display = 'none';
+            succ.style.display = 'block';
+            alert("The form has been submitted successfully!");
+        }
 
-<script>
-function myFunction() {
-    var name = document.getElementById('name');
-    var email = document.getElementById('email');
-    var sub = document.getElementById('sub');
-    const succ = document.getElementById("succ");
-    const danger = document.getElementById('danger');
-
-    if(name.value === '' || email.value === '' || sub.value === ''){
-        danger.style.display = 'block';
     }
-    else{
-        danger.style.display = 'none';
-        succ.style.display = 'block';
-        alert("Form successfully submitted");
-    }
-}
-</script>
+    </script>
+
+</body>
+</html>
