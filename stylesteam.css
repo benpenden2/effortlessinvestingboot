@@ -1,0 +1,30 @@
+nav{
+    text-align: center;
+    color: whitesmoke;
+}
+.caption{
+    text-align: center;
+}
+.thumbnail{
+    text-align: center;
+}
+h1{
+    padding-right: 5px;
+}
+#logo{
+    transform: translateY(-20px);
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+}
+#logotext{
+    font-size: large;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.container{
+    padding: 15px;
+}
+li:hover{
+    background: #080808;
+}
