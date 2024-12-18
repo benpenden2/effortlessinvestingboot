@@ -1,0 +1,21 @@
+ #logo{
+    transform: translateY(-20px);
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+}
+#logotext{
+    font-size: large;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.container{
+    padding: 15px;
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+}
+li:hover{
+    background: #080808;
+}
