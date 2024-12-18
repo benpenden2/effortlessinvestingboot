@@ -34,6 +34,11 @@ button{
     height: 500px;
     object-fit: cover;
 }
+#pic2holder{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+}
 #mainpic2{
     border-radius: 30px;
     width:450px;
