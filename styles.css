@@ -35,7 +35,7 @@ button{
     object-fit: cover;
 }
 #pic2holder{
-    display: flexbox;
+    display: flex;
     text-align: center;
     justify-content: center;
 }
